@@ -1,0 +1,53 @@
+header{
+    background-color:red;
+    height: 350px;
+    position: relative;
+}
+
+header > div{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+#number-display{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    font-size: 100px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.dial-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dial-button button{
+    background-color: rgb(8, 8, 235);
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#list-number-has-appear{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* #list-number-has-appear span{
+    color: red;
+    border: 3px solid rgb(24, 187, 37);
+    font-weight: 800;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+} */
