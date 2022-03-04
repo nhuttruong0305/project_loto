@@ -51,7 +51,7 @@ document.getElementById("stop").onclick = function(){
     numberHasAppear.push(numberDisplay);
     document.getElementById("number-display").innerHTML=numberDisplay;
     let spanNumber=document.createElement("span");
-    spanNumber.innerHTML=numberDisplay+", ";
+    spanNumber.innerHTML=numberDisplay;
     document.getElementById("list-number-has-appear").appendChild(spanNumber);
     console.log(numberHasAppear);
     console.log(numberDisplay);
